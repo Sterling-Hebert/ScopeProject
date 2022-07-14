@@ -16,7 +16,7 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 let arrowGetFullName = person => {
   let fullName = person.firstName + ' ' + person.lastName;
-  return fullName
+  return fullName;
 
 };
 
