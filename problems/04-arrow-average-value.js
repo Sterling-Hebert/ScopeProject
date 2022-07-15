@@ -10,21 +10,21 @@ arrowAvgValue([2, 3, 7]); // => 4
 arrowAvgValue([100, 60, 64]); // => 74.66666666666667
 ***********************************************************************/
 
-// Phil's code
-const arrowAvgValue = (array) => {
-  let sum = arr.reduce((accum, curr) => {
-    accum += curr);
-
-  return sum / arr.length
-};
-
+// // Phil's code
 // const arrowAvgValue = (array) => {
-//   let sum = 0;
-//   for (let num of array){
-//     sum += num
-//   }
-//   return sum / array.length
-// }
+//   let sum = arr.reduce((accum, curr) => {
+//     accum += curr);
+
+//   return sum / arr.length
+// };
+
+const arrowAvgValue = (array) => {
+  let sum = 0;
+  for (let num of array){
+    sum += num
+  }
+  return sum / array.length
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
